@@ -21,6 +21,8 @@ function getusers() {
 async function getIt() {
 	try {
 		await getusers();
+		//await getComments();
+		/* here we can call many promise based functions with await etc for we can have all the data from multiple fucntion calls to render  */
 	} catch (error) {
 		console.log('error custom msg');
 	}
